@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+.active_sidebar {
+    cursor: pointer;
+    color: yellow;
+    margin-top: 20px
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidebar {
+    width: 60%;
+    height: 100vh;
+    /* background-color: green; */
+    position: absolute;
+    top: 0px;
+    transition: .5s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icon_close{
+    font-size: 50px;
+    margin-left: 750px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 22px;
+    color: white;
+}
+.active_sidebar{
+    font-size: 50px;
+}
+.img{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 17px;
+    height: 60px;
+    cursor: pointer;
+}
+.ota{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    border: 2px solid black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ota_two{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 1px;
+}
+.icon_ho{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 47px;
+}
+.h2{
+    color: white ;
+    margin-left: 120px;
+    margin-top: -25px;
+    cursor: pointer;
+}
+.ul{
+    margin-left: 40px;
+}
+.li{
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .5s;
+    color:rgb(53, 52, 52);
+}
+.li:hover{
+    color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.ul_into{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.li>h6{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-weight: 500;
+    position: absolute;
+}
+.qalesan{
+    margin-left: 700px;
+}
+.ccc{
+    list-style: none;
+    font-size: 25px;
+}
+.nnna{
+    width: 105%;
+    margin-left: -50px;
+    border-top: .2px solid rgb(209, 206, 206);
+    border-bottom: .2px solid rgb(209, 206, 206);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ss{
+    margin-top: -15px;
+    margin-left: 50px;
+}
+.ul_two{
+    display: flex;
+    gap: 10px;
+    margin-left: 650px;
+    margin-top: -29px;
+    position: absolute;
+}
+.li_one{
+    cursor: pointer;
+    list-style-type: none ;
+}
+.li_one:hover{
+    background-color: black;
+    color: white;
+}
+.aaa{
+    
 }
